@@ -7,7 +7,7 @@
 // If not, shorten the prefix by removing one character from the end.
 
 // Repeat until all strings "start with" the prefix or prefix becomes empty.
-//note: node 14_Longest_Common_Prefix.js
+//note: node 14_Longest_Common_Prefix.js   
 
 function longestCommonPrefix(strs1){
     if(strs1.length === 0) return "";
