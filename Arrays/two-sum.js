@@ -13,5 +13,5 @@ var twoSum = function(nums, target) {
     }
 };
 const nums = [3, 2, 4];
-const target = 6;
+const target = 6; 
 console.log(twoSum(nums, target));  

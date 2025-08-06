@@ -9,13 +9,13 @@
 // Repeat until all strings "start with" the prefix or prefix becomes empty.
 //note: node 14_Longest_Common_Prefix.js
 
-function longestCommonPrefix(strs){
-    if(strs.length === 0) return "";
+function longestCommonPrefix(strs1){
+    if(strs1.length === 0) return "";
 
       let prefix = strs[0];
   
-  for (let i = 1; i < strs.length; i++) {
-    while (strs[i].indexOf(prefix) !== 0) {
+  for (let i = 1; i < strs1.length; i++) {
+    while (strs1[i].indexOf(prefix) !== 0) {
       prefix = prefix.substring(0, prefix.length - 1);
       if (prefix === "") return "";
     }
@@ -27,4 +27,4 @@ function longestCommonPrefix(strs){
 
 console.log(longestCommonPrefix(["flower","flow","flight"]));  // Output: "fl"
 console.log(longestCommonPrefix(["dog","racecar","car"]));     // Output: ""
-console.log(longestCommonPrefix(["interstellar", "internet", "internal", "interval"])); 
+console.log(longestCommonPrefix(["interstellar", "internetv", "internal", "interval"])); 
